@@ -7,7 +7,6 @@ from PIL import Image, ImageEnhance
 import tensorflow as tf
 import keras
 from keras.applications.vgg16 import VGG16
-
 import pathlib
 temp=pathlib.PosixPath
 pathlib.PosixPath=pathlib.WindowsPath
