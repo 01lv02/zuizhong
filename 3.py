@@ -7,9 +7,6 @@ from PIL import Image, ImageEnhance
 import tensorflow as tf
 import keras
 from keras.applications.vgg16 import VGG16
-import pathlib
-temp=pathlib.PosixPath
-pathlib.PosixPath=pathlib.WindowsPath
 
 model = VGG16(weights="imagenet")
 st.set_page_config(page_title="图像转换编辑器", page_icon=":eyeglasses:")
